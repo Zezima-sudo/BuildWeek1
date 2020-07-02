@@ -1,10 +1,6 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -71,7 +67,55 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* team page */
+
+#teamHeader {
+	
+}
+
+
+
+.box {
+  
+	
+	margin: 3px;
+	border: 2px solid black;
+	height: 20rem;
+	width: 18rem;
+   
+  
+  }
+  
+  .box2 {
+	
+	
+	margin: 3px;
+	border: 2px solid black;
+	height: 20rem;
+	width: 16%;
+   
+  
+  }
+  
+  
+  .container {
+	display: flex;
+	justify-content: center;
+	
+  }
+  .container2 {
+	display: flex;
+	justify-content: center;
+	
+  }
+  
+
+
+	img {
+		display: flex;
+		justify-content: center;
+	}
+	
 
 	@-ms-viewport {
 		width: device-width;
@@ -88,6 +132,19 @@ input, select, textarea {
 		}
 
 	}
+
+	@media screen and (max-width: 480px) {
+
+		.container, .container2, .box, .box2 {
+			max-width: 25rem;
+			
+			flex-direction: column;
+			align-items: center;
+		}
+
+	}
+
+	
 
 	html {
 		color: red;
