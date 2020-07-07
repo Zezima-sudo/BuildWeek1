@@ -101,7 +101,9 @@ input, select, textarea {
   .container {
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
 	
+
   }
   .container2 {
 	display: flex;
@@ -135,8 +137,8 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		.container, .container2, {
-			max-width: 25rem;
+		.container, .container2 {
+			
 			flex-direction: column;
 			align-items: center;
 		}
@@ -148,7 +150,6 @@ input, select, textarea {
 	@media screen and (max-width: 869px) {
 
 		.container, .container2, .box, .box2 {
-			max-width: 25rem;
 			
 			flex-direction: column;
 			align-items: center;
